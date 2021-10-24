@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="”en”">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reverse image search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <section class="content">
+  <h1> Reverse camera Search</h1>
+  <!-- Camera -->
+<main id="camera">
+    <!-- Camera sensor -->
+    <canvas id="cameraSensor"></canvas>
+    
+    <!-- The actual camera input-->
+    <video id="cameraView" autoplay playsinline></video>
+    
+    <!-- Camera output -->
+    <img src="//:0" alt="" id="camera--output">
+    <!-- Camera trigger -->
+    <button id="camera--trigger">Take a picture</button>
+</main>
+  </section>
+    <script src="app.js"></script>
+  </body>
+</html>
